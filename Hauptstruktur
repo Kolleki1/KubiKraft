@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine GitHub Pages Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner Webseite!</h1>
+    </header>
+    <main>
+        <h2>Über mich</h2>
+        <p>Hallo! Ich bin [Ihr Name]. Dies ist meine persönliche Webseite, gehostet mit GitHub Pages.</p>
+        <h2>Kontakt</h2>
+        <p>Sie können mich per E-Mail unter [Ihre E-Mail-Adresse] erreichen.</p>
+    </main>
+</body>
+</html>
