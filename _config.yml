@@ -1,0 +1,12 @@
+title: Mein Jekyll Blog
+email: [IhreEmail@domain.de]
+description: > # diese bedeutet, dass der Text in der nächsten Zeile beginnt
+  Ein einfacher Jekyll-Blog, gehostet auf GitHub Pages.
+baseurl: "" # der Subpfad Ihrer Site, z.B. '/blog' wenn Ihr Blog unter 'domain.de/blog' läuft
+url: "https://kolleki1.github.io" # die Basisadresse Ihrer Site
+
+# Build-Einstellungen
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
