@@ -1,1 +1,51 @@
 <link rel="stylesheet" type="text/css" href="/styles.css">
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tab-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab-links li {
+    margin-right: 5px;
+}
+
+.tab-links a {
+    padding: 10px 15px;
+    display: block;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.tab-links a:hover,
+.tab-links li.active a {
+    background-color: #ddd;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.tab-content .tab.active {
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+}
